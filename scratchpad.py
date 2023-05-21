@@ -1,0 +1,3 @@
+"""
+    Scratchpad for brainstorming.
+"""
