@@ -22,6 +22,7 @@ def int_list_to_num(array):
     map_result = map(str, array)
     # Join each element to a single string
     single_integer = int(''.join(map_result))
+    print(single_integer)
     return single_integer
 
 
@@ -30,5 +31,9 @@ length = 4
 print(random_num(length), '\n')
 
 # List to num call
-array = [1, 2, 3, 4, 5]
-int_list_to_num(array)
+array0 = [1, 2, 3, 4, 5]
+int_list_to_num(array0)
+
+
+array1 = [0, 4, 3, 4, 5]
+int_list_to_num(array1)
